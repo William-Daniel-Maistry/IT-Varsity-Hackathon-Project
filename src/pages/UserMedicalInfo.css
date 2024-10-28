@@ -1,0 +1,80 @@
+.medical-info-container {
+    max-width: 600px; /* Set a maximum width for the container */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Light border for separation */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.medical-info-container h1 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Darker color for contrast */
+}
+
+form {
+    display: flex; /* Use flexbox for form layout */
+    flex-direction: column; /* Stack items vertically */
+}
+
+label {
+    display: block; /* Ensure labels are block elements */
+    margin-bottom: 10px; /* Space between labels */
+    font-weight: bold; /* Bold labels for clarity */
+    color: #555; /* Color for label text */
+}
+
+.required:after {
+    content: "*"; /* Indicate required fields */
+    color: red; /* Red color for asterisk */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding for input fields */
+    margin-top: 5px; /* Space between label and input */
+    margin-bottom: 16px; /* Space below inputs */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 16px; /* Increase font size */
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 80px; /* Minimum height for textareas */
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    margin-top: 15px; /* Space above button */
+    padding: 10px; /* Padding for button */
+    background-color: #4CAF50; /* Primary color for button */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for button */
+    font-size: 16px; /* Increase font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    width: 100%; /* Full width for button */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+p {
+    text-align: center; /* Centered text */
+    color: #4CAF50; /* Green text color */
+    margin-top: 20px; /* Space above paragraph */
+}

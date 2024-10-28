@@ -1,0 +1,65 @@
+.emergency-alerts {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8d7da; /* Light red background */
+  color: #721c24; /* Dark red text */
+  border: 1px solid #f5c6cb; /* Border color */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #d9534f; /* Bootstrap danger color */
+  font-family: 'Arial', sans-serif; /* Ensure consistent font family */
+}
+
+p {
+  margin-bottom: 15px;
+  color: #45cdbe; /* Adjusted paragraph color */
+}
+
+.hotlines,
+.emergency-tips,
+.updates,
+.preparedness-kit,
+.communication-tips {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.hotlines li,
+.preparedness-kit li,
+.communication-tips li {
+  padding: 8px;
+  background-color: #e9ecef; /* Light gray background */
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.updates p {
+  background-color: #ffdd57; /* Highlight background */
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px 0;
+  font-weight: bold; /* Make updates bold */
+}
+
+h2 {
+  color: #007bff; /* Bootstrap primary color */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif; /* Ensure consistent font family */
+}
+
+strong {
+  color: #333; /* Dark text for strong elements */
+}
+
+.emergency-tips li,
+.preparedness-kit li,
+.communication-tips li {
+  padding-left: 10px;
+}

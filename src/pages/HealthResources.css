@@ -1,0 +1,72 @@
+.health-resources-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f3f4f6;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.resources-title {
+  text-align: center;
+  font-size: 2em;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.resources-list {
+  list-style: none;
+  padding: 0;
+}
+
+.resource-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resource-icon {
+  font-size: 1.8em;
+  color: #007bff;
+  margin-right: 15px;
+}
+
+.resource-title {
+  font-size: 1.5em;
+  color: #34495e;
+  margin: 0 0 5px;
+}
+
+.resource-description {
+  font-size: 1em;
+  color: #666;
+}
+
+.resource-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.resource-link:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .resource-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .resource-icon {
+    margin-bottom: 10px;
+  }
+}

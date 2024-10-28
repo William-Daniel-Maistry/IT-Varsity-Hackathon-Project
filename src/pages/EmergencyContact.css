@@ -1,0 +1,63 @@
+.emergency-contacts {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+h2, h3 {
+    color: #007bff; 
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1; 
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+li strong {
+    font-weight: bold;
+    color: #333; 
+}
+
+button {
+    background-color: #007bff; 
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+.communication-tips,
+.additional-resources {
+    margin: 15px 0;
+}
+
+.communication-tips li,
+.additional-resources li {
+    padding: 8px;
+    background-color: #e9ecef; 
+    border-radius: 4px;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #555; 
+}

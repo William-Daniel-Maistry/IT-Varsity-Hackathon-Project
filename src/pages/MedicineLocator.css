@@ -1,0 +1,22 @@
+.medicine-locator-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.medicine-locator-container h1 {
+  text-align: center;
+  color: #4caf50;
+}
+
+.medicine-locator-container p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.leaflet-container {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

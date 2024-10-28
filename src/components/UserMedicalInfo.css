@@ -1,0 +1,51 @@
+.medical-info-container {
+    max-width: 600px; /* Set a maximum width for the container */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+}
+
+form {
+    display: flex; /* Use flexbox for form layout */
+    flex-direction: column; /* Stack items vertically */
+}
+
+label {
+    margin: 10px 0 5px; /* Space above and below labels */
+    font-weight: bold; /* Bold labels for clarity */
+}
+
+input,
+select,
+textarea {
+    padding: 10px; /* Padding for input fields */
+    margin-bottom: 15px; /* Space below inputs */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 4px; /* Slightly rounded corners */
+}
+
+button {
+    margin-top: 20px; /* Space above button */
+    padding: 10px 15px; /* Padding for button */
+    background-color: #4CAF50; /* Primary color for button */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+.success-message {
+    color: green; /* Color for success messages */
+    text-align: center; /* Centered text */
+}
